@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-diffusion-models-a-brief-report",
+            },{id: "post-intro-to-stats-for-bayesian-mls",
+        
+          title: "Intro to Stats for Bayesian MLs",
+        
+        description: "an example of a blog post with some math",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/";
+          
+        },
+      },{id: "post-diffusion-models-a-brief-report",
         
           title: "Diffusion Models; A Brief Report",
         
@@ -83,7 +94,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/Diffusion/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-20000-leagues-under-the-sea",
+          title: '20000 Leagues Under the Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/20000/";
+            },},{id: "books-educated",
+          title: 'Educated',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/educated/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
